@@ -1,0 +1,363 @@
+/* CSS FOR HOMEPAGE */
+body {
+    
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+#home-section {
+    background: #fff;
+    color: #000;
+    background: url(./img/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    max-height: 1000px;
+
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .path1 {
+    margin-top: 515px;
+}
+
+#home-section .path2 {
+    padding-top: -500px;
+}
+
+.header-info {
+    border: 0px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.8;
+
+    
+}
+
+.header-info .button-header {
+    background-color: #4d4b86;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.navIcon {
+    color: #4d4b86;
+}
+
+
+ul li a{
+    border: px solid #fff;
+    border-radius: 10px;
+    color: #000;
+}
+
+
+
+.navColor{
+    color: #4d4b86;
+    /* color: #fff; */
+
+}
+
+/* MAIN SECTION */
+/* .bg-image {
+    width: 660px;
+} */
+
+.main-row {
+margin-top: -120px;
+position: relative;
+z-index: -1;
+}
+
+.right-col {
+    padding: 280px;
+    background: url(./img/about-img.png);background-repeat: no-repeat;
+}
+
+.main-section {
+    background-color: #eeeeee; 
+    position: relative;
+    z-index: 1;
+}
+
+.left-col {
+    padding-top: 150px;
+}
+
+/* MAIN SECTION - SECOND INNER */
+
+.second-inner {
+    background: url(./img/Path\ 7.png);background-repeat: no-repeat;
+    /* padding: 430px; */
+    margin-top: 50px;
+}
+
+/* WHAT WE DO */
+.what-we-do {
+    margin-bottom: 100px;
+}
+
+.grey-text {
+    color: #aaaaaa;
+}
+.card {
+    margin-top: 250px auto;
+    margin: 50px;
+    padding: 50px;
+}
+
+main{
+    margin-bottom: 30px;
+}
+
+/* ANNICK FAMILY */
+.amnick-fam {
+    margin-top: 30px;
+}
+/* SUBSCRIPTION */
+.subscribe {
+    /* background-color:#000000; */
+    margin-top: 40px;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.sub{
+    padding-top: 5px;
+}
+
+button {
+    background: #4D4B86;
+    color: white;
+    margin-left: -40px;
+}
+label {
+    margin-bottom: 0px;
+    
+}
+
+input{
+    background: #bbbbbb;
+    margin-left: 10px;
+}
+
+/* FOOTER SECTION */
+#main-footer {
+    margin-top: 50px;
+}
+.footer a {
+    color: #fff;
+    
+}
+
+/************************* CSS FOR SERVICES PAGE ***************************/
+
+.services-body {
+    padding: 0;
+    margin: 0;
+}
+.jumbo {
+    background: url(./img/services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    color: #6E6BCC;
+    margin-bottom: -10px;
+}
+
+.jumbo-text {
+    padding-top: 100px;
+}
+
+#main-services-section {
+    background: #eee;
+}
+
+/* Styling Images */
+
+.web-right {
+    background: url(/img/web-development.jpg); background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.ui-left{
+    background: url(/img/ui-design.jpg); background-repeat: no-repeat;
+    padding: 220px;
+    margin-top: 5px;
+}
+
+.content-right{
+    background: url(/img/content-management.jpg);background-repeat: no-repeat;
+    padding: 200px;
+    margin-top: 10px;
+}
+
+/* Styling services footer */
+#services-main-footer{
+    margin-top: -30px;
+}
+
+
+/*********************************** ABOUT SECTION *************************************/
+
+#about-section {
+    background: #fff;
+    color: #000;
+    background: url(./img/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 800px;
+}
+
+.about-main-section{
+    margin-top: 122px;
+    background-color: #eeeeee;
+    position: relative;
+    z-index: -1;
+   
+} 
+
+.about-container {
+    color: #6E6BCC;
+}
+
+.main-row {
+    background: url(./img/Path\ 7.png); background-repeat: no-repeat;
+}
+
+.mission-left {
+    /* background: url(./img/Path\ 7.png); background-repeat: no-repeat; */
+    padding: 60px;
+    margin-top: -50px;
+    /* position: relative;
+    z-index: 1; */
+   
+}
+
+.mission-right{
+    background: url(./img/about1.jpg); background-repeat: no-repeat;
+    padding: 200px;
+    /* padding-right: 50px; */
+    
+}
+
+.goals-left{
+    background: url(./img/about2.jpg); background-repeat: no-repeat;
+    padding: 200px;
+    
+}
+
+.grid1{
+    background: url(/img/about3.jpg);background-repeat: no-repeat;
+    padding: 130px;
+}
+.grid2{
+    background: url(/img/about4.jpg);background-repeat: no-repeat;
+    padding: 130px;
+}
+.grid3{
+    background: url(/img/about5.jpg);background-repeat: no-repeat;
+    padding: 130px;
+    margin-left: -15px;
+}
+
+/* Our Team */
+
+.our-team {
+    background: url(/img/Path\ 8.png);background-repeat: no-repeat;
+    padding: 5px;
+}
+
+.inner-team {
+    margin-top: 30px;
+}
+
+.pic1{
+    color: #6a689a;
+    background: url(/img/face1.jpg);background-repeat: no-repeat;
+    padding: 130px;
+    text-align: center;
+    
+}
+.pic2{
+    color: #6a689a;
+    background: url(/img/face2.jpg);background-repeat: no-repeat;
+    padding: 130px;
+    text-align: center;
+
+}
+.pic3{
+    color: #6a689a;
+    background: url(/img/face3.jpg);background-repeat: no-repeat;
+    padding: 130px;
+    text-align: center;
+
+}
+
+.pic4{
+    color: #6a689a;;
+    background: url(/img/face4.jpg);background-repeat: no-repeat;
+    padding: 130px;
+    text-align: center;
+
+}
+
+/* .info{
+    color: #6a689a;
+} */
+
+/****************************************** CONTACT ********************************************/
+#contact-section {
+    background: #fff;
+    color: #000;
+    background: url(/img/contact-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 800px;
+}
+
+.head-text {
+    color: #6E6BCC;
+}
+
+.contact-container{
+    color: #6E6BCC;
+}
+
+.contact-row {
+    padding-top: 50px;
+    /* padding-top: 100px; */
+}
+
+.form-right {
+    /* background: #fff; */
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    /* opacity: 0.8; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.form-btn{
+    background-color: #6E6BCC;
+    padding: 10px;
+    border-radius: 30px;
+}
+label {
+    color: #6E6BCC;
+}
