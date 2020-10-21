@@ -1,0 +1,90 @@
+/* Small devices landscpe phone */
+
+@media (max-width: 576px) {
+    /********************* HOMEPAGE ******************/
+    body { 
+       
+    }
+
+    .main-row {
+        
+    }
+    .right-col {
+        margin-left: -200px;
+    }
+    
+    .path1, .path3 {
+        margin-left: -1000px;
+    }
+
+
+    .second-inner{
+        margin-left: -20px auto;
+    }
+
+    .card-row{
+        /* margin-left: 30px; */
+    }
+
+    .subscribe {
+        width: 340px;
+        height: 50px;
+    }
+
+    /********************* ABOUT ******************/
+    .main-row {
+        margin-left: -40px;
+    }
+    .mission-right {
+     margin-left: -30px;
+    
+    }
+
+    .goals-left {
+        margin-left: -30px;
+    }
+
+    .goals-right {
+       
+    }
+
+    .grid1 {
+        margin-left: -15px;
+    }
+    .grid2 {
+        margin-left: -15px;
+    }
+    .grid3 {
+
+    }
+
+    .pic1, .pic2, .pic3, .pic4 {
+        /* width: 200px;
+        height: 220px; */
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+    
+     /********************* SERVICES ******************/
+
+     .web-right {
+        margin-left: -25px;
+     }
+     .ui-left{
+        margin-left: -70px;
+     }
+     
+     .content-right {
+        margin-left: -50px;
+     }
+
+     /********************* CONTACT ******************/
+     .contact-info {
+         margin-bottom: 40px;
+         margin-left: 50px;
+     }
+
+     .form-right {
+         margin-bottom: 20px;
+     }
+}

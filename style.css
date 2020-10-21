@@ -29,10 +29,16 @@ body {
 
 #home-section .path1 {
     margin-top: 515px;
+    /* margin-left: -950px; */
+}
+
+.path3 {
+    /* margin-left: -950px; */
 }
 
 #home-section .path2 {
     padding-top: -500px;
+  
 }
 
 .header-info {
@@ -83,12 +89,14 @@ z-index: -1;
 .right-col {
     padding: 280px;
     background: url(./img/about-img.png);background-repeat: no-repeat;
+    
 }
 
 .main-section {
     background-color: #eeeeee; 
     position: relative;
     z-index: 1;
+    
 }
 
 .left-col {
@@ -101,6 +109,7 @@ z-index: -1;
     background: url(./img/Path\ 7.png);background-repeat: no-repeat;
     /* padding: 430px; */
     margin-top: 50px;
+    /* margin-left: -50px; */
 }
 
 /* WHAT WE DO */
@@ -252,6 +261,7 @@ input{
 .mission-right{
     background: url(./img/about1.jpg); background-repeat: no-repeat;
     padding: 200px;
+   
     /* padding-right: 50px; */
     
 }
@@ -289,32 +299,39 @@ input{
 
 .pic1{
     color: #6a689a;
-    background: url(/img/face1.jpg);background-repeat: no-repeat;
+    background: url(/img/face1.jpg);background-repeat: no-repeat; background-size: 400px;
     padding: 130px;
     text-align: center;
+    width: 250px;
+    height: 200px;
     
 }
 .pic2{
     color: #6a689a;
-    background: url(/img/face2.jpg);background-repeat: no-repeat;
+    background: url(/img/face2.jpg);background-repeat: no-repeat; background-size: 300px;
     padding: 130px;
     text-align: center;
+    width: 250px;
+    height: 200px;
 
 }
 .pic3{
     color: #6a689a;
-    background: url(/img/face3.jpg);background-repeat: no-repeat;
+    background: url(/img/face3.jpg);background-repeat: no-repeat; background-size: 300px;
     padding: 130px;
     text-align: center;
+    width: 250px;
+    height: 200px;
 
 }
 
 .pic4{
     color: #6a689a;;
-    background: url(/img/face4.jpg);background-repeat: no-repeat;
+    background: url(/img/face4.jpg);background-repeat: no-repeat; background-size: 300px;
     padding: 130px;
     text-align: center;
-
+    width: 250px;
+    height: 200px;
 }
 
 /* .info{
@@ -328,7 +345,7 @@ input{
     background: url(/img/contact-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     min-height: 800px;
 }
 
@@ -361,3 +378,10 @@ input{
 label {
     color: #6E6BCC;
 }
+
+
+/* @media (max-width: 576px) {
+    body {
+        background-color: red;
+    }
+} */
