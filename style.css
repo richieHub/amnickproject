@@ -378,7 +378,7 @@ main{
 .pic1{
     color: #6a689a;
     background: url(/img/face1.jpg);background-repeat: no-repeat; background-size: 400px;
-    margin: auto;
+    /* margin: auto; */
     margin-left: 30px;
     /* text-align: center; */
     width: 100%;
@@ -392,7 +392,7 @@ main{
 .pic2{
     color: #6a689a;
     background: url(/img/face2.jpg);background-repeat: no-repeat; background-size: 400px;
-    margin: auto;
+    /* margin: auto; */
     margin-left: 30px;
     /* text-align: center; */
     width: 100%;
@@ -406,7 +406,7 @@ main{
 .pic3{
     color: #6a689a;
     background: url(/img/face3.jpg);background-repeat: no-repeat; background-size: 400px;
-    margin: auto;
+    /* margin: auto; */
     margin-left: 30px;
     /* text-align: center; */
     width: 100%;
@@ -421,7 +421,7 @@ main{
 .pic4{
     color: #6a689a;;
     background: url(/img/face4.jpg);background-repeat: no-repeat; background-size: 400px;
-    margin: auto;
+    /* margin: auto; */
     margin-left: 30px;
     /* text-align: center; */
     width: 100%;
