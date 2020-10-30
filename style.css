@@ -375,58 +375,6 @@ main{
     margin-top: 30px;
 }
 
-.pic1{
-    color: #6a689a;
-    background: url(/img/face1.jpg);background-repeat: no-repeat; background-size: 400px;
-    padding: 130px;
-    /* text-align: center; */
-    width: 250px;
-    height: 200px;
-    background-position: center;
-    background-size: 100% 100%;
-
-
-    
-}
-.pic2{
-    color: #6a689a;
-    background: url(/img/face2.jpg);background-repeat: no-repeat; background-size: 400px;
-    padding: 130px;
-    /* text-align: center; */
-    width: 250px;
-    height: 200px;
-    background-position: center;
-    background-size: 100% 100%;
-
-
-
-}
-.pic3{
-    color: #6a689a;
-    background: url(/img/face3.jpg);background-repeat: no-repeat; background-size: 400px;
-    padding: 130px;
-    /* text-align: center; */
-    width: 250px;
-    height: 200px;
-    background-position: center;
-    background-size: 100% 100%;
-
-
-
-}
-
-.pic4{
-    color: #6a689a;;
-    background: url(/img/face4.jpg);background-repeat: no-repeat; background-size: 400px;
-    padding: 130px;
-    /* text-align: center; */
-    width: 250px;
-    height: 200px;
-    background-position: center;
-    background-size: 100% 100%;
-
-
-}
 
 /* .info{
     color: #6a689a;
