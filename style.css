@@ -88,7 +88,10 @@ z-index: -1;
 
 .right-col {
     padding: 280px;
-    background: url(./img/about-img.png);background-repeat: no-repeat;
+    background: url(./img/who-we-are.png);background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
     
 }
 
@@ -112,14 +115,26 @@ z-index: -1;
     /* margin-left: -50px; */
 }
 
-/* WHAT WE DO */
-.what-we-do {
-    margin-bottom: 100px;
+/* WHO WE ARE */
+.who-header {
+    margin-bottom: -5px;
+}
+
+.who-text {
+    margin-top: -15px;
 }
 
 .grey-text {
     color: #aaaaaa;
+    
 }
+
+/* WHAT WE DO */
+.what-we-do {
+    margin-bottom: -10px;
+}
+
+
 .card {
     margin-top: 250px auto;
     margin: 50px;
@@ -136,32 +151,14 @@ main{
 }
 /* SUBSCRIPTION */
 .subscribe {
-    /* background-color:#000000; */
-    margin-top: 40px;
-    margin: auto;
-    width: 400px;
-    height: 50px;
-    padding-top: 5px;
-    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: #5b557f;
 }
 
-.sub{
-    padding-top: 5px;
-}
-
-button {
-    background: #4D4B86;
-    color: white;
-    margin-left: -40px;
-}
-label {
-    margin-bottom: 0px;
-    
-}
-
-input{
-    background: #bbbbbb;
-    margin-left: 10px;
+.social-ex {
+    margin-bottom: -11px;
 }
 
 /* FOOTER SECTION */
@@ -184,16 +181,45 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    color: #6E6BCC;
+    color: #5f5dda;;
     margin-bottom: -10px;
+    /* filter: brightness(50%); */
 }
 
 .jumbo-text {
     padding-top: 100px;
+    color: #fff;
+    /* filter: brightness(100%); */
 }
 
 #main-services-section {
     background: #eee;
+}
+
+/* Styling text */
+
+.web-hd, .ux-hd, .cm-hd {
+    margin-bottom: 15px;
+}
+
+/* .ux-hd {
+    margin-bottom: 15px;
+}
+
+.cm-hd {
+    margin-bottom: 15px;
+} */
+
+.web-left{
+    margin-top: 50px;
+}
+
+.ux-right {
+    margin-top: 50px;
+}
+
+.content-left {
+    margin-top: 50px;
 }
 
 /* Styling Images */
@@ -201,18 +227,24 @@ input{
 .web-right {
     background: url(/img/web-development.jpg); background-repeat: no-repeat;
     padding: 200px;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .ui-left{
     background: url(/img/ui-design.jpg); background-repeat: no-repeat;
     padding: 220px;
     margin-top: 5px;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .content-right{
     background: url(/img/content-management.jpg);background-repeat: no-repeat;
     padding: 200px;
     margin-top: 10px;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 /* Styling services footer */
@@ -223,14 +255,29 @@ input{
 
 /*********************************** ABOUT SECTION *************************************/
 
-#about-section {
+/* #about-section {
     background: #fff;
     color: #000;
     background: url(./img/bg-home.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background-attachment: fixed; */
-    min-height: 800px;
+    /* min-height: 800px;
+} */
+
+.about-jumbo {
+    background: url(./img/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    color: #5f5dda;
+    margin-bottom: -10px;  
+    /* filter: brightness(80%); */
+}
+
+.about-text {
+    filter: brightness(100%);
+    /* opacity: 0.8; */
 }
 
 .about-main-section{
@@ -245,45 +292,72 @@ input{
     color: #6E6BCC;
 }
 
-.main-row {
+.main-section-pic {
     background: url(./img/Path\ 7.png); background-repeat: no-repeat;
+    /* margin-left: 40px; */
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
 }
 
-.mission-left {
-    /* background: url(./img/Path\ 7.png); background-repeat: no-repeat; */
-    padding: 60px;
-    margin-top: -50px;
+.mission-left  {
+   
+    /* padding: 80px; */
+    margin-top: 50px;
     /* position: relative;
     z-index: 1; */
    
 }
 
+.goals-right {
+    margin-top: 50px;
+}
+
 .mission-right{
     background: url(./img/about1.jpg); background-repeat: no-repeat;
     padding: 200px;
-   
+    background-position: center;
+    margin-left: 30px;
+    background-size: 100% 100%;
+
     /* padding-right: 50px; */
     
 }
 
 .goals-left{
-    background: url(./img/about2.jpg); background-repeat: no-repeat;
+    background: url(./img/about2.jpg); background-repeat: no-repeat;height: 100%; width: 100%;
     padding: 200px;
-    
+    background-position: center;
+    margin-left: -10px;
+    background-size: 100% 100%;
+
+   
 }
 
 .grid1{
     background: url(/img/about3.jpg);background-repeat: no-repeat;
     padding: 130px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 }
 .grid2{
     background: url(/img/about4.jpg);background-repeat: no-repeat;
     padding: 130px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 }
 .grid3{
     background: url(/img/about5.jpg);background-repeat: no-repeat;
     padding: 130px;
     margin-left: -15px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 }
 
 /* Our Team */
@@ -291,6 +365,9 @@ input{
 .our-team {
     background: url(/img/Path\ 8.png);background-repeat: no-repeat;
     padding: 5px;
+    background-size: 100% 100%;
+
+    /* margin-left: -10px; */
 }
 
 .inner-team {
@@ -301,37 +378,53 @@ input{
     color: #6a689a;
     background: url(/img/face1.jpg);background-repeat: no-repeat; background-size: 400px;
     padding: 130px;
-    text-align: center;
+    /* text-align: center; */
     width: 250px;
     height: 200px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
     
 }
 .pic2{
     color: #6a689a;
-    background: url(/img/face2.jpg);background-repeat: no-repeat; background-size: 300px;
+    background: url(/img/face2.jpg);background-repeat: no-repeat; background-size: 400px;
     padding: 130px;
-    text-align: center;
+    /* text-align: center; */
     width: 250px;
     height: 200px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 
 }
 .pic3{
     color: #6a689a;
-    background: url(/img/face3.jpg);background-repeat: no-repeat; background-size: 300px;
+    background: url(/img/face3.jpg);background-repeat: no-repeat; background-size: 400px;
     padding: 130px;
-    text-align: center;
+    /* text-align: center; */
     width: 250px;
     height: 200px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 
 }
 
 .pic4{
     color: #6a689a;;
-    background: url(/img/face4.jpg);background-repeat: no-repeat; background-size: 300px;
+    background: url(/img/face4.jpg);background-repeat: no-repeat; background-size: 400px;
     padding: 130px;
-    text-align: center;
+    /* text-align: center; */
     width: 250px;
     height: 200px;
+    background-position: center;
+    background-size: 100% 100%;
+
+
 }
 
 /* .info{
@@ -342,7 +435,7 @@ input{
 #contact-section {
     background: #fff;
     color: #000;
-    background: url(/img/contact-img.png);
+    background: url(/img/contact-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

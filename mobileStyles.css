@@ -33,7 +33,8 @@
 
     /********************* ABOUT ******************/
     .main-row {
-        margin-left: -40px;
+        /* margin-left: -40px; */
+        padding: 0px;
     }
     .mission-right {
      margin-left: -30px;
