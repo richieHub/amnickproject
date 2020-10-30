@@ -473,7 +473,7 @@ label {
 }
 
 .field {
-    margin: 0 auto;
+    margin-left: 50%
 }
 
 /* @media (max-width: 576px) {
