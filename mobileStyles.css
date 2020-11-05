@@ -9,6 +9,12 @@
     .main-row {
         
     }
+
+    .h3 {
+        padding: 150px;
+        
+    }
+
     .right-col {
         margin-left: -200px;
     }
@@ -29,6 +35,8 @@
     .subscribe {
         width: 340px;
         height: 50px;
+        padding: 20px;
+        margin-bottom: 45px;
     }
 
     /********************* ABOUT ******************/
