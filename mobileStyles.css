@@ -100,4 +100,8 @@
      .form-right {
          margin-bottom: 20px;
      }
+
+     .field {
+         margin: 10%;
+     }
 }
