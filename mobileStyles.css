@@ -28,8 +28,12 @@
         margin-left: -20px auto;
     }
 
-    .card-row{
-        /* margin-left: 30px; */
+    .card{
+        width: 80%;
+    }
+
+    .card-title {
+        
     }
 
     .subscribe {
